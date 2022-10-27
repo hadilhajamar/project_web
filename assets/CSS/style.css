@@ -1,14 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+*{
+    font-family: "lato", sans-serif;
+}
 #reg_section{
     display: flex;
     height:100% ;
     width: 100%;
 }
-h1{ 
-    text-align: left;
-}
-p{
-    text-align: left;
-}
+
 .left{
    width: 50%;
    background-color: lightgray;
@@ -16,8 +15,8 @@ p{
    display: flex;
 }
 .left img{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     
 }
@@ -26,36 +25,28 @@ p{
     display: flex;
 }
 .right form{
-    margin: auto auto auto 30px;
-
+    margin: auto auto auto 15%;
+    width: 70%;
 
 }
+.right h1{
+    font-size: 40px;
+}
 
-    .name {
-    width: 76%;
-    background: rgba(136, 133, 133, 0.04);
-    padding: 10px 10px;/* taille de la partie gray*/
+
+    .right .inputs
+     {
+    background-color: #F7F7F7;
+    padding: 9px 20px;/* taille de la partie gray*/
     border: none;
     text-align: left;
-    margin-bottom: 27px;/* entre name et address*/
+    margin-bottom: 15px;/* entre name et address*/
+    border-radius: 10px;
+    width:60%;
+    font-size: 15px;
     }
     
-    .email {
-        width: 76%;
-        background: rgba(136, 133, 133, 0.04);
-        padding: 10px 10px;
-        border: none;
-        text-align: left;
-        margin-bottom: 27px;/* entre name et address*/
-        }
-    .pass{
-        width: 76%;
-    background: rgba(136, 133, 133, 0.04);
-    padding: 10px 10px;
-    border: none;
-    text-align: left;
-    margin-bottom: 27px;/* entre name et address*/
-    }
+    
 .button {
     width: 25%;
     height: 30px;
