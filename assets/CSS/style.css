@@ -1,0 +1,76 @@
+#reg_section{
+    display: flex;
+    height:100% ;
+    width: 100%;
+}
+h1{ 
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+.left{
+   width: 50%;
+   background-color: lightgray;
+   text-align: center;
+   display: flex;
+}
+.left img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    
+}
+.right{
+    width: 50%;
+    display: flex;
+}
+.right form{
+    margin: auto auto auto 30px;
+
+
+}
+
+    .name {
+    width: 76%;
+    background: rgba(136, 133, 133, 0.04);
+    padding: 10px 10px;/* taille de la partie gray*/
+    border: none;
+    text-align: left;
+    margin-bottom: 27px;/* entre name et address*/
+    }
+    
+    .email {
+        width: 76%;
+        background: rgba(136, 133, 133, 0.04);
+        padding: 10px 10px;
+        border: none;
+        text-align: left;
+        margin-bottom: 27px;/* entre name et address*/
+        }
+    .pass{
+        width: 76%;
+    background: rgba(136, 133, 133, 0.04);
+    padding: 10px 10px;
+    border: none;
+    text-align: left;
+    margin-bottom: 27px;/* entre name et address*/
+    }
+.button {
+    width: 25%;
+    height: 30px;
+    border: 0;
+    color: white;
+    background: #5d64e4;
+   
+    border-radius: 5px;/* arrandis*/
+  }
+
+  
+
+
+   
+
+      
+    
+    
